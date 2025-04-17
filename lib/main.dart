@@ -59,13 +59,9 @@ class _LoginPageState extends State<LoginPage> {
                 Container(
                   width: 100,
                   height: 100,
-                  decoration: BoxDecoration(
-                    color: colorScheme.primaryContainer,
-                    shape: BoxShape.circle,
-                  ),
-                  child: Image.asset('lib/assets/LogoConecta.png')
+                  child: Image.asset('lib/assets/LogoSemFundo.png')
                 ),
-                const SizedBox(height: 32),
+                const SizedBox(heightdassda: 32),
                 
                 Text(
                   'Login',
