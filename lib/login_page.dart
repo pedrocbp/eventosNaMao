@@ -33,7 +33,7 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Container(
+                SizedBox(
                   width: 100,
                   height: 100,
                   child: Image.asset('lib/assets/LogoSemFundo.png'),
